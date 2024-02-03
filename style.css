@@ -1,0 +1,93 @@
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:220px 220px 200px;
+    background:black;
+  
+  }
+  *{
+    margin:0px;
+    padding:0px;
+    }
+  
+  .four{
+    grid-column:1/3;
+    background:rgba(40, 40, 40, 1);
+    display:grid;
+    grid-template-columns:1fr 1fr; 
+  }
+  .one{
+    grid-row:1/2;
+    background:rgba(255, 205, 158, 1);
+    padding-left:100px;
+    padding-top:40px;
+    padding-right:125px;
+    
+  }
+  .three{
+    grid-row:2/3;
+    background:rgba(255, 205, 158, 1);
+    padding-left:100px;
+  }
+  .two{
+    grid-row:1/3;
+    background:rgba(255, 205, 158, 1);
+  }
+  .but{
+  background:black;
+  color:white;
+  width: 146px;
+  height: 38px;
+  top: 4px;
+  left: 20px;
+  border-radius: 6px;
+  margin-left:20px;
+  }
+  .para{
+    padding-right: 120px;
+  }
+  .img{
+    height:400px;
+    padding-left: 100px;
+    padding-top: 50px;
+    justify-content: center;
+  }
+  .f1{
+    color:white;
+    padding-left:150px;
+    padding-top:30px;
+    padding-bottom:20px;
+  
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 350;
+  line-height: 28px;
+  letter-spacing: 0em; 
+  }
+  .f2{
+    color:white;
+    text-align: right;
+    padding-top:10px;
+    padding-right:200px;
+    padding-bottom:10px;
+    padding-top:30px;
+  
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 28px;
+    letter-spacing: 0em; 
+  }
+  .email{
+    width: 220px;
+    height: 32px;
+    border-radius: 6px;
+    padding-left: 20px;
+    border: 3px solid black;
+    margin:2px;
+  }
+  .text{
+  color:white;
+  padding-left:30px;
+  font-weight: 100 ;
+  }
